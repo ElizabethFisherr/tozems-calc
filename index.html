@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Tozems | Calculate Profit">
+    <meta property="og:description" content="Calculate your profits at all investment levels">
+    <meta property="og:image" content="img/calculator.jpg">
+    <meta property="og:image:alt" content="Tozems changes lives for the better, invest with a reliable company">
+    <meta property="og:image:width" content="564">
+    <meta property="og:image:height" content="375">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Calc Tozems</title>
+</head>
+
+<body>
+    <header>
+        <a target="blank" href="https://t.me/ElizabethFish">
+            <img src="img/telegram.png" alt="Telegram" class="img">
+        </a>
+        <a target="blank" href="https://www.facebook.com/groups/992620184989374">
+            <img src="img/facebook.png" alt="Facebook" class="img">
+        </a>
+        <a target="blank" href=" https://wa.me/+447770625949">
+            <img src="img/whatsapp.png" alt="WhatsApp" class="img">
+        </a>
+    </header>
+    <div class="wrapper ">
+        <div class="title main_title ">Profit from deposits</div>
+        <form id="main_form" action="#">
+            <div class="form_container">
+                <div class="block block-num">
+                    <span class="form_title">Amount of investment</span>
+                    <input autofocus type="number" max="1000000" id="count" value="50">
+                </div>
+                <div class="block block-level">
+                    <span class="form_title">Level of investment</span>
+                    <select class="num" name="Level" id="level">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                    </select>
+                </div>
+                <div class="block block-btn">
+                    <input class="btn" type="submit" value="Calculate">
+                </div>
+            </div>
+        </form>
+
+        <!-- <p class="total_result">Profit: $<span class="profit">3.50</span> + $<span class="deposit">50</span> = $<span id="count_total">53.50</span> </p> -->
+
+        <p class="total_result">Total profit: $<span id="count_total">53.50</span></p>
+
+        <script src="./index.js"></script>
+        <script>
+        </script>
+
+    </div>
+</body>
+
+</html>
